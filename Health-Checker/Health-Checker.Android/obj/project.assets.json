@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker.Android\\Health-Checker.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker.Android\\Health-Checker.Android.csproj",
       "projectName": "Health-Checker.Android",
-      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker.Android\\Health-Checker.Android.csproj",
+      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker.Android\\Health-Checker.Android.csproj",
       "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker.Android\\obj\\",
+      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {
-              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj"
+            "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {
+              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj"
             }
           }
         }

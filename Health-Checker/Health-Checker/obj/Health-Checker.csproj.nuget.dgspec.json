@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {}
+    "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {
+    "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj",
         "projectName": "Health-Checker",
-        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj",
+        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj",
         "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

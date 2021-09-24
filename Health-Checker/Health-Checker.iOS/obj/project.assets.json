@@ -998,11 +998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker.iOS\\Health-Checker.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker.iOS\\Health-Checker.iOS.csproj",
       "projectName": "Health-Checker.iOS",
-      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker.iOS\\Health-Checker.iOS.csproj",
+      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker.iOS\\Health-Checker.iOS.csproj",
       "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1025,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {
-              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Health-Checker\\Health-Checker\\Health-Checker.csproj"
+            "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj": {
+              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\Senior Project\\Senior-Project-2021\\Health-Checker\\Health-Checker\\Health-Checker.csproj"
             }
           }
         }
