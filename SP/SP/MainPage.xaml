@@ -8,8 +8,8 @@
             <Label Text="Login or Sign-Up Below" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
 
-        <Button Text="Login"></Button>
-        <Button Text="Sign-Up"></Button>
+        <Button x:Name="LoginButton" Clicked="LoginButton_Clicked" Text="Login"></Button>
+        <Button x:Name="SignUpButton" Clicked="SignUpButton_Clicked" Text="Sign-Up"></Button>
 
     </StackLayout>
 
