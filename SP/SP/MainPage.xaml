@@ -7,6 +7,10 @@
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Login or Sign-Up Below" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
+
+        <Button Text="Login"></Button>
+        <Button Text="Sign-Up"></Button>
+
     </StackLayout>
 
 </ContentPage>
