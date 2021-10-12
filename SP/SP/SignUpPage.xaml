@@ -3,10 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SP.SignUpPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20,20,20,20">
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Please fill in the Form below" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+
+            <Entry x:Name="FnameEntry"
+               Placeholder="First Name" 
+               HorizontalTextAlignment="Center"
+               Keyboard="Text"></Entry>
+
+            <Entry x:Name="LnameEntry"
+               Placeholder="Last Name" 
+               HorizontalTextAlignment="Center"
+               Keyboard="Text"></Entry>
+
+            <Entry x:Name="EmailEntry"
+               Placeholder="Email" 
+               HorizontalTextAlignment="Center"
+               Keyboard="Email"></Entry>
+
+            <Entry x:Name="AgeEntry"
+               Placeholder="Age" 
+               HorizontalTextAlignment="Center" 
+               MaxLength="3" 
+               Keyboard="Numeric"></Entry>
+
+            <Entry x:Name="SexEntry"
+               Placeholder="Sex" 
+               HorizontalTextAlignment="Center" 
+               MaxLength="7" 
+               Keyboard="Text"></Entry>
+
+            <Button x:Name="saveButton"
+                Clicked="saveButton_Clicked" 
+                Text="Submit"></Button>
+
+            <Label Text="Optional:" HorizontalTextAlignment="Center" Padding="10" FontSize="25" TextColor="Black"></Label>
+            <Label Text="This is a demo application!" HorizontalTextAlignment="Center" Padding="0" FontSize="25" TextColor="Black"></Label>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
