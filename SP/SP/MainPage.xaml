@@ -11,6 +11,12 @@
         <Button x:Name="LoginButton" Clicked="LoginButton_Clicked" Text="Login"></Button>
         <Button x:Name="SignUpButton" Clicked="SignUpButton_Clicked" Text="Sign-Up"></Button>
 
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="8" CornerRadius="0">
+                <Label Text="Current Users" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+        </StackLayout>
+
     </StackLayout>
 
 </ContentPage>
