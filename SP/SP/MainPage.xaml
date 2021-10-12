@@ -5,17 +5,8 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Please fill in the Form below" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Login or Sign-Up Below" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-
-        <Entry Placeholder="Age" HorizontalTextAlignment="Center"></Entry>
-        <Entry Placeholder="Sex" HorizontalTextAlignment="Center"></Entry>
-        <Entry Placeholder="Birth Year" HorizontalTextAlignment="Center"></Entry>
-        <Button Text="Submit"></Button>
-
-        <Label Text="Optional:" HorizontalTextAlignment="Center" Padding="10" FontSize="25" TextColor="Black"></Label>
-        <Label Text="This is a demo application!" HorizontalTextAlignment="Center" Padding="0" FontSize="25" TextColor="Black"></Label>
-
     </StackLayout>
 
 </ContentPage>
