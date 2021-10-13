@@ -25,13 +25,7 @@ namespace SP.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
-
-            //SQL Lite
-            string fileName = "person_info_db.db3";
-            string folderPath = Path.Combine(Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
-            string completePath = Path.Combine(folderPath, fileName);
-
-            LoadApplication(new App(completePath));
+            LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }

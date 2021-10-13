@@ -13,5 +13,3 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\n
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ref\SP.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.pdb
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SignUpPage.xaml.g.cs
