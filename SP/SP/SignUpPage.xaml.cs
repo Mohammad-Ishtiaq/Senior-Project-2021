@@ -18,7 +18,7 @@ namespace SP
             InitializeComponent();
         }
 
-        private void saveButton_Clicked(object sender, EventArgs e)
+        void SaveButton_Clicked(object sender, EventArgs e)
         {
 
             //When the button is pressed, the data entered will be added
@@ -37,7 +37,7 @@ namespace SP
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<SignInInformation>();
-                conn.Insert(info);
+                int rowAdded = conn.Insert(info);
             }
 
             Navigation.PushAsync(new MainPage());

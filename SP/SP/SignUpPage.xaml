@@ -35,8 +35,8 @@
                MaxLength="7" 
                Keyboard="Text"></Entry>
 
-            <Button x:Name="saveButton"
-                Clicked="saveButton_Clicked" 
+            <Button x:Name="SaveButton"
+                Clicked="SaveButton_Clicked"
                 Text="Submit"></Button>
 
             <Label Text="Optional:" HorizontalTextAlignment="Center" Padding="10" FontSize="25" TextColor="Black"></Label>

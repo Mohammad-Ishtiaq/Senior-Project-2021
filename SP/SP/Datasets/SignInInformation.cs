@@ -5,7 +5,7 @@ using SQLite;
 
 namespace SP.Datasets
 {
-    class SignInInformation
+    public class SignInInformation
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
