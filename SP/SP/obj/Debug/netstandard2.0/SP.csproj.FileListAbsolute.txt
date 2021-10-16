@@ -5,7 +5,6 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\bin\Debug\n
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.csproj.AssemblyReference.cache
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.AssemblyInfoInputs.cache
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.AssemblyInfo.cs
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.csproj.CoreCompileInputs.cache
@@ -13,3 +12,7 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\n
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ref\SP.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\SP.pdb
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\MainPage.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\symptomChecker.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\CovidCheckerButton.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\OTCCheckerButton.xaml.g.cs
