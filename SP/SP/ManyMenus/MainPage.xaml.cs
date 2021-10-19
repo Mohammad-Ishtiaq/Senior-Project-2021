@@ -16,6 +16,9 @@ namespace SP
             InitializeComponent();
         }
 
+        //Each button event happenes when you click on the specific button.
+        //This is the main page that appears when the app loads.
+        
         public void SymptomCheckerButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new symptomChecker());

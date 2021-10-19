@@ -4,9 +4,9 @@
              x:Class="SP.ManyMenus.symptomChecker">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <SearchBar x:Name="MainSearchBar"
+                       SearchButtonPressed="MainSearchBar_SearchButtonPressed"/>
+            <ListView x:Name="MainListView" BackgroundColor="White"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
