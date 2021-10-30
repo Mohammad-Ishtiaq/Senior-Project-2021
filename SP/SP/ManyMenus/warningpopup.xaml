@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+            Size="300,300"
+             x:Class="SP.ManyMenus.warningpopup">
+    
+    <StackLayout>
+        <Label Text="*WARNING*" 
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="Red"
+               FontSize="Large"
+               xct:ShadowEffect.Color="Yellow"
+               FontAttributes="Bold"/>
+        
+        <Label HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="Medium"
+               TextColor="Black"
+               Text="This app provides useful information but is not a substitute for proffesinoal medical advice, diagnoise, or treatment."/>
+        
+        <Button Text="I Understand!"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+    
+</xct:Popup>

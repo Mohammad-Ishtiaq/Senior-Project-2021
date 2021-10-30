@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SP.ManyMenus.DiseaseDetailPage"
+             Title="Disease Detail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="\{Disease Name}/"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Padding="0,10,0,40"
+                   TextColor="Red"/>
+
+            <Label Text="Disease Description: {DDesc}"
+                   FontSize="Medium"
+                   Padding="10,0,0,20"
+                   TextColor="Blue"/>
+
+            <Label Text="Symptoms: [List of Symptoms {DSymp}]"
+                   FontSize="Medium"
+                   Padding="10,0,0,20"
+                   TextColor="Blue"/>
+
+            <Label Text="Find a Doctor by clicking below:"
+                   FontSize="Medium"
+                   Padding="10,50,0,0"
+                   TextColor="Green"/>
+
+            <Button Text="Doctor Look Up"
+                    x:Name="FAD"
+                    Clicked="FAD_Clicked"/>
+
+            <Label Text="Need help quick? Find some Over the Counter Medicine Now!"
+                   FontSize="Medium"
+                   Padding="10,50,0,0"
+                   TextColor="Green"/>
+
+            <Button Text="Over The Counter Look-Up"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
