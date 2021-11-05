@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[3.0.0.5, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -122,6 +126,10 @@
             "Xam.Plugins.Forms.ImageCircle": {
               "target": "Package",
               "version": "[3.0.0.5, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
