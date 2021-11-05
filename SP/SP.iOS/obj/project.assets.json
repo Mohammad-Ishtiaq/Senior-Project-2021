@@ -23,24 +23,6 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "[5.0.0.1874, 5.0.0.2012]"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing.Common.dll"
-        ],
-        "compile": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "build": {
-          "build/Xamarin.CommunityToolkit.targets": {}
-        }
-      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -186,7 +168,6 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -220,24 +201,6 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "[5.0.0.1874, 5.0.0.2012]"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing.Common.dll"
-        ],
-        "compile": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "build": {
-          "build/Xamarin.CommunityToolkit.targets": {}
-        }
-      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -383,7 +346,6 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -417,24 +379,6 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "[5.0.0.1874, 5.0.0.2012]"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing.Common.dll"
-        ],
-        "compile": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "build": {
-          "build/Xamarin.CommunityToolkit.targets": {}
-        }
-      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -580,7 +524,6 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -614,24 +557,6 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.CommunityToolkit/1.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "[5.0.0.1874, 5.0.0.2012]"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing.Common.dll"
-        ],
-        "compile": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {}
-        },
-        "build": {
-          "build/Xamarin.CommunityToolkit.targets": {}
-        }
-      },
       "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -777,7 +702,6 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -858,48 +782,6 @@
         "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
         "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
         "xam.plugins.forms.imagecircle.nuspec"
-      ]
-    },
-    "Xamarin.CommunityToolkit/1.2.0": {
-      "sha512": "N2f4a0MmdRTx2QyxtcEeoV0yVXNblIhs9H2NED0v+YNn42AaRnw1WN4sG+Okw8jOkc3iyMkrVtn6EjzE29EjmQ==",
-      "type": "package",
-      "path": "xamarin.communitytoolkit/1.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "build/PreserveXamarinCommunityToolkit.cs",
-        "build/Xamarin.CommunityToolkit.targets",
-        "icon.png",
-        "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll",
-        "lib/monoandroid10.0/Xamarin.CommunityToolkit.xml",
-        "lib/net471/Xamarin.CommunityToolkit.dll",
-        "lib/net471/Xamarin.CommunityToolkit.xml",
-        "lib/net472/Xamarin.CommunityToolkit.dll",
-        "lib/net472/Xamarin.CommunityToolkit.xml",
-        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.dll",
-        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.xml",
-        "lib/netstandard1.0/Xamarin.CommunityToolkit.dll",
-        "lib/netstandard1.0/Xamarin.CommunityToolkit.xml",
-        "lib/netstandard2.0/Xamarin.CommunityToolkit.dll",
-        "lib/netstandard2.0/Xamarin.CommunityToolkit.xml",
-        "lib/netstandard2.1/Xamarin.CommunityToolkit.dll",
-        "lib/netstandard2.1/Xamarin.CommunityToolkit.xml",
-        "lib/tizen40/Xamarin.CommunityToolkit.dll",
-        "lib/tizen40/Xamarin.CommunityToolkit.xml",
-        "lib/uap10.0.19041/Xamarin.CommunityToolkit.dll",
-        "lib/uap10.0.19041/Xamarin.CommunityToolkit.pri",
-        "lib/uap10.0.19041/Xamarin.CommunityToolkit.xml",
-        "lib/xamarinios10/Xamarin.CommunityToolkit.dll",
-        "lib/xamarinios10/Xamarin.CommunityToolkit.xml",
-        "lib/xamarinmac20/Xamarin.CommunityToolkit.dll",
-        "lib/xamarinmac20/Xamarin.CommunityToolkit.xml",
-        "lib/xamarintvos10/Xamarin.CommunityToolkit.dll",
-        "lib/xamarintvos10/Xamarin.CommunityToolkit.xml",
-        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.dll",
-        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.xml",
-        "xamarin.communitytoolkit.1.2.0.nupkg.sha512",
-        "xamarin.communitytoolkit.nuspec"
       ]
     },
     "Xamarin.Essentials/1.6.1": {
@@ -1179,7 +1061,6 @@
     "Xamarin.iOS,Version=v1.0": [
       "SP >= 1.0.0",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
-      "Xamarin.CommunityToolkit >= 1.2.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -1232,10 +1113,6 @@
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",
             "version": "[3.0.0.5, )"
-          },
-          "Xamarin.CommunityToolkit": {
-            "target": "Package",
-            "version": "[1.2.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
