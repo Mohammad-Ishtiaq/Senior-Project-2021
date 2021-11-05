@@ -22,7 +22,11 @@ CodegenTarget=
 AndroidDexTool=d8
 AndroidLinkTool=
 AndroidEnableProfiledAot=
-AndroidInstallAfterBuild=
-AndroidSessionId=
+AndroidInstallAfterBuild=True
+<<<<<<< HEAD
+AndroidSessionId=17b82a03-db2d-421f-8b0a-6d1257d4a35e
+=======
+AndroidSessionId=1190090b-f576-405c-ae2a-ec3bb9f1152d
+>>>>>>> parent of 7582dc9 (Fourm)
 BuildConfiguration=Debug
 TemplateName={c9e5eea5-ca05-42a1-839b-61506e0a37df}
