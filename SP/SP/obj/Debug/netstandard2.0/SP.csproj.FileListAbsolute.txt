@@ -17,6 +17,3 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\n
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\CovidCheckerButton.xaml.g.cs
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\OTCCheckerButton.xaml.g.cs
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\MyListPageDetail.xaml.g.cs
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\Questionare.xaml.g.cs
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\warningpopup.xaml.g.cs
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SP\SP\obj\Debug\netstandard2.0\ManyMenus\DiseaseDetailPage.xaml.g.cs
