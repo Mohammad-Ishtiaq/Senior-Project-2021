@@ -1,12 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:SP.Models"
+             BackgroundColor="WhiteSmoke"
              x:Class="SP.ManyMenus.CovidCheckerButton">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid RowDefinitions="Auto,*">
+                <Frame Padding="0" Margin="10" Grid.Row="0" CornerRadius="10">
+                    <StackLayout  Orientation="Horizontal" BackgroundColor="LightBlue">
+                        <StackLayout Margin="5" HorizontalOptions="StartAndExpand">
+                            <Label Text="Location base covid Data" FontSize="20" FontAttributes="Bold"/>
+                            <Label Text="CountryName" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Country Code"  FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Admin Area" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Sub Area" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Sub Locality" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Confirmed" FontAttributes="Bold" TextColor="Red"/>
+                            <Label Text="Deaths" FontAttributes="Bold" TextColor="Red"/>
+                            <Label Text="Daily" FontAttributes="Bold" TextColor="Red"/>
+                            <Label Text="All state Covid Data" FontSize="20" FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout Margin="5,35,5,0" HorizontalOptions="EndAndExpand">
+                            <Label x:Name="TxtCountry" TextColor="Black"/>
+                            <Label x:Name="TxtCountryCode" TextColor="Black"/>
+                            <Label x:Name="TxtAdminArea" TextColor="Black"/>
+                            <Label x:Name="TxtSubArea" TextColor="Black"/>
+                            <Label x:Name="TxtSubLocality" TextColor="Black"/>
+                            <Label x:Name="TxtConfirmed" TextColor="Black"/>
+                            <Label x:Name="TxtDeaths" TextColor="Black"/>
+                            <Label x:Name="TxtDaily"  TextColor="Black"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                
+            <ActivityIndicator Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" x:Name="Indicator"/>
+            <CollectionView Grid.Row="1"
+                HorizontalScrollBarVisibility="Never"
+                Margin="5,5,5,5"
+                x:Name="ListData">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                                            VerticalItemSpacing="10"
+                                            Span="1" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame CornerRadius="10" BackgroundColor="LightPink">
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Horizontal">
+                                        <StackLayout WidthRequest="100" Orientation="Vertical" Spacing="0">
+                                            <Label Text="State Name" TextColor="Green"/>
+                                            <Label Text="Country" TextColor="Green"/>
+                                            <Label Text="Code" TextColor="Green"/>
+                                            <Label Text="Population" TextColor="Green"/>
+                                        </StackLayout>
+                                        <StackLayout WidthRequest="100" Spacing="0">
+                                            <Label Text="{Binding combined_name}"/>
+                                            <Label Text="{Binding country}"/>
+                                            <Label Text="{Binding country_code}"/>
+                                            <Label Text="{Binding population}"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                    <StackLayout Spacing="0" Orientation="Horizontal">
+                                        <StackLayout HorizontalOptions="StartAndExpand" WidthRequest="100" Spacing="0" Orientation="Vertical">
+                                            <Label Text="Confirmed" TextColor="Red"/>
+                                            <Label Text="Deaths" TextColor="Red"/>
+                                            <Label Text="Daily"  TextColor="Red"/>
+                                                <Label Text="Fips"  TextColor="Red"/>
+                                            </StackLayout>
+                                        <StackLayout HorizontalOptions="EndAndExpand" WidthRequest="50" Margin="5,0,0,0" Orientation="Vertical" Spacing="0">
+                                            <Label Text="{Binding confirmed}" TextColor="Black"/>
+                                            <Label Text="{Binding deaths}" TextColor="Black"/>
+                                            <Label Text="{Binding confirmed_daily}" TextColor="Black"/>
+                                                <Label Text="{Binding fips}" TextColor="Black"/>
+                                            </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

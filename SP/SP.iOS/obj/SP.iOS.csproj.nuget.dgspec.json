@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP.iOS\\SP.iOS.csproj": {}
+    "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP.iOS\\SP.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP.iOS\\SP.iOS.csproj": {
+    "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP.iOS\\SP.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP.iOS\\SP.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP.iOS\\SP.iOS.csproj",
         "projectName": "SP.iOS",
-        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP.iOS\\SP.iOS.csproj",
+        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP.iOS\\SP.iOS.csproj",
         "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP\\SP.csproj": {
-                "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP\\SP.csproj"
+              "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP\\SP.csproj": {
+                "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP\\SP.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "Xam.Plugins.Forms.ImageCircle": {
               "target": "Package",
               "version": "[3.0.0.5, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -71,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP\\SP.csproj": {
+    "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP\\SP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP\\SP.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP\\SP.csproj",
         "projectName": "SP",
-        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP\\SP.csproj",
+        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP\\SP.csproj",
         "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -119,9 +123,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Xam.Plugins.Forms.ImageCircle": {
               "target": "Package",
               "version": "[3.0.0.5, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

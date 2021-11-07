@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "auQYc+MkTGCo9uOsG48zPhlFlbm8ABXBmPNJCn2U3swY2zWlXr2Zl/OQ7yGShrGV9aGRqyV6cwhihXv2MYFghw==",
+  "dgSpecHash": "7mtDhubuX3T2wrrZgk9X4K+Yt1cBAL2cWRp3QsL6Mc8f4Ez7LiCDNnlhYTBNyZGtsfnpaqduqFJ92MERq++QbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SP\\SP.Android\\SP.Android.csproj",
+  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\Senior-Project-2021-main\\SP\\SP.Android\\SP.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.0.0.5\\xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
@@ -50,6 +51,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.versionedparcelable\\1.1.1.6\\xamarin.androidx.versionedparcelable.1.1.1.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager\\1.0.0.6\\xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager2\\1.0.0.8\\xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
+    "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
