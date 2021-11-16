@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Search Fourm"
+             x:Class="SpFinal.Views.entryForm">
+    <ContentPage.Content>
+
+        <ListView ItemsSource="{Binding DList}"
+                   HasUnevenRows="true"
+                   SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="Test"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </ContentPage.Content>
+    
+</ContentPage>
+    
+    <!--
+    <StackLayout>
+
+            <Label Text="Sex:" Padding="5" TextColor="Black"></Label>
+            <Entry Placeholder="Enter Sex : Male or Female" MaxLength="6"></Entry>
+
+            <Label Text="Age:" Padding="5" TextColor="Black"></Label>
+            <Entry Placeholder="Enter Age" MaxLength="3" Keyboard="Numeric"></Entry>
+            <Label Padding="0,0,0,0"></Label>
+
+
+            <Label HorizontalOptions="Center" 
+                   Text="Please enter your symptoms"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="Black"/>
+
+            <Label HorizontalOptions="Center" 
+                   Text="from most severe to least severe:"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="Black"/>
+
+            <Entry Placeholder="Enter symptoms with a ',' seperating each one!" 
+                   FontAttributes="Bold"/>
+
+            <Button x:Name="enterButton"
+                    Clicked="enterButton_Clicked"
+                    Text="Find me Help!"/>
+        </StackLayout>
+    -->
