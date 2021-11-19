@@ -15,7 +15,8 @@ namespace SpFinal.ViewModel
         {
             DiseaseDetails = new ObservableCollection<DListModel>()
             {
-                new DListModel (){ DName="Test", DAge = 0, Gender = "Male" ,DDescription = "Test" }
+                new DListModel (){ DName="Test", DAge = 0, Gender = "Male" ,DDescription = "Test" },
+                new DListModel (){ DName="Test1", DAge = 0, Gender = "Male" ,DDescription = "Test" }
             };
         }
     }
