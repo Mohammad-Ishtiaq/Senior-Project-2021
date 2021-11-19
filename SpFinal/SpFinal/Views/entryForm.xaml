@@ -49,6 +49,7 @@
             <Label Padding="0,0,0,0"/>
 
             <Button x:Name="Enter"
+                    Clicked="Enter_Clicked"
                     HorizontalOptions="Start"
                     WidthRequest="330"
                     Text="Submit"/>

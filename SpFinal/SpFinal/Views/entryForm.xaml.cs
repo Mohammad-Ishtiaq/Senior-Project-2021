@@ -16,10 +16,9 @@ namespace SpFinal.Views
         public entryForm()
         {
             InitializeComponent();
-            BindingContext = new DListViewModel();
         }
 
-        void enterButton_Clicked(object sender, EventArgs e)
+        void Enter_Clicked(object sender, EventArgs e)
         {
             Navigation.ShowPopup(new warning()
             {
@@ -27,6 +26,9 @@ namespace SpFinal.Views
                 IsLightDismissEnabled = false
 
             }); ;
+
+            Navigation.PushAsync(new Dlistpage());
+
         }
     }
 }

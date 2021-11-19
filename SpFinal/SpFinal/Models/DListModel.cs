@@ -9,7 +9,7 @@ namespace SpFinal.Models
         public string DName { get; set; }
         public string DDescription { get; set; }
         public int DAge { get; set; }
-        public int Gender { get; set; }
+        public string Gender { get; set; }
         public string DSymptoms { get; set; }
     }
 }
