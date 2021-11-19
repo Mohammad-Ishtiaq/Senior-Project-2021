@@ -86,7 +86,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\questionare.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SpFinal\SpFinal.csproj">
       <Project>{CF7DF812-1791-4A82-97ED-3E09924E744D}</Project>

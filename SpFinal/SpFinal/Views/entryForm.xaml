@@ -2,53 +2,62 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Search Fourm"
+             NavigationPage.HasNavigationBar="true"
+             BackgroundImageSource="questionare.png"
              x:Class="SpFinal.Views.entryForm">
     <ContentPage.Content>
 
-        <ListView ItemsSource="{Binding DList}"
-                   HasUnevenRows="true"
-                   SeparatorVisibility="None">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Label Text="Test"/>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <StackLayout Padding="30,0,0,0">
+            <Label Padding="5,140,0,0"
+                   TextColor="Black" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="Age"/>
+            <Entry x:Name="Age"
+                   HorizontalOptions="Start"
+                   WidthRequest="280"
+                   TextColor="Black"
+                   Placeholder="Please Enter Age Between 0 - 150"/>
+
+            <Label Padding="5,10,0,0"
+                   TextColor="Black" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="Gender"/>
+            <Entry x:Name="Gender"
+                   HorizontalOptions="Start"
+                   WidthRequest="206"
+                   TextColor="Black"
+                   Placeholder="Are you Male or Female?"/>
+
+            <Label Padding="5,30,0,0"
+                   TextColor="Black" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="Please enter your symptoms from"/>
+            <Label Padding="5,0,0,0"
+                   TextColor="Black" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="most to least sevier below:"/>
+            <Entry x:Name="Symptom"
+                   HorizontalOptions="Start"
+                   WidthRequest="330"
+                   TextColor="Black"
+                   Placeholder="Seperate each symptom with a ','"/>
+
+            <Label Padding="0,0,0,0"/>
+
+            <Button x:Name="Enter"
+                    HorizontalOptions="Start"
+                    WidthRequest="330"
+                    Text="Submit"/>
+
+
+
+
+        </StackLayout>
 
     </ContentPage.Content>
-    
+
 </ContentPage>
-    
-    <!--
-    <StackLayout>
-
-            <Label Text="Sex:" Padding="5" TextColor="Black"></Label>
-            <Entry Placeholder="Enter Sex : Male or Female" MaxLength="6"></Entry>
-
-            <Label Text="Age:" Padding="5" TextColor="Black"></Label>
-            <Entry Placeholder="Enter Age" MaxLength="3" Keyboard="Numeric"></Entry>
-            <Label Padding="0,0,0,0"></Label>
-
-
-            <Label HorizontalOptions="Center" 
-                   Text="Please enter your symptoms"
-                   FontSize="Large"
-                   FontAttributes="Bold"
-                   TextColor="Black"/>
-
-            <Label HorizontalOptions="Center" 
-                   Text="from most severe to least severe:"
-                   FontSize="Large"
-                   FontAttributes="Bold"
-                   TextColor="Black"/>
-
-            <Entry Placeholder="Enter symptoms with a ',' seperating each one!" 
-                   FontAttributes="Bold"/>
-
-            <Button x:Name="enterButton"
-                    Clicked="enterButton_Clicked"
-                    Text="Find me Help!"/>
-        </StackLayout>
-    -->

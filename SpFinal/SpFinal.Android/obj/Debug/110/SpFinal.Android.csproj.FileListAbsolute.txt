@@ -1230,7 +1230,6 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.A
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\R.txt
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\R.cs.flag
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\SpFinal.Android.csproj.CoreCompileInputs.cache
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\SpFinal.Android.csproj.CopyComplete
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\SpFinal.Android.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\SpFinal.Android.pdb
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\android\bin\com.companyname.spfinal.apk
@@ -1792,3 +1791,4 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.A
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\res\drawable\questionare.png
