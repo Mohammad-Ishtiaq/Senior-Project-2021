@@ -6,10 +6,22 @@ namespace SpFinal.Models
 {
     public class DListModel
     {
+        //Disease Name
         public string DName { get; set; }
+
+        //Disease Description
         public string DDescription { get; set; }
-        public int DAge { get; set; }
-        public string Gender { get; set; }
+
+        //Lowest age group the disease accures in
+        public int DAgeLow { get; set; }
+
+        //Highest age group the disease accures in
+        public int DAgeHigh { get; set; }
+
+        //Most common gender the disease accures in
+        public string MGender { get; set; }
+
+        //List of symptoms for the diease
         public string DSymptoms { get; set; }
     }
 }

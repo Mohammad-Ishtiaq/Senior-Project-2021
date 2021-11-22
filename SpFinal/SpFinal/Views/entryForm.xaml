@@ -13,10 +13,11 @@
                    FontSize="Medium"
                    FontAttributes="Bold"
                    Text="Age"/>
-            <Entry x:Name="Age"
+            <Entry x:Name="DAge"
                    HorizontalOptions="Start"
                    WidthRequest="280"
                    TextColor="Black"
+                   Keyboard="Numeric"
                    Placeholder="Please Enter Age Between 0 - 150"/>
 
             <Label Padding="5,10,0,0"
@@ -24,7 +25,7 @@
                    FontSize="Medium"
                    FontAttributes="Bold"
                    Text="Gender"/>
-            <Entry x:Name="Gender"
+            <Entry x:Name="MGender"
                    HorizontalOptions="Start"
                    WidthRequest="206"
                    TextColor="Black"
@@ -40,7 +41,7 @@
                    FontSize="Medium"
                    FontAttributes="Bold"
                    Text="most to least sevier below:"/>
-            <Entry x:Name="Symptom"
+            <Entry x:Name="DSymptom"
                    HorizontalOptions="Start"
                    WidthRequest="330"
                    TextColor="Black"

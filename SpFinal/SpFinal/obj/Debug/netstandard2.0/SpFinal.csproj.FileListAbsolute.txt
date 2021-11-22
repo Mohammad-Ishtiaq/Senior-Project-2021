@@ -50,3 +50,4 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\b
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\bin\Debug\netstandard2.0\ref\SpFinal.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.pdb
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\DDescriptionPage.xaml.g.cs

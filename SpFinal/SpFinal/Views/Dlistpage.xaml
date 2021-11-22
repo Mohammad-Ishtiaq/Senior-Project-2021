@@ -6,7 +6,8 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemsSource="{Binding  DiseaseDetails}">
+            <ListView ItemsSource="{Binding  DiseaseDetails}"
+                      ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding DName}" 

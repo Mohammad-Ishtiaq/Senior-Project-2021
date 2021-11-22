@@ -1,4 +1,5 @@
-﻿using SpFinal.ViewModel;
+﻿using SpFinal.Models;
+using SpFinal.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,12 @@ namespace SpFinal.Views
         {
             InitializeComponent();
             BindingContext = new DViewModel();
+        }
+
+        private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var mydetails = e.Item as DListModel;
+            await Navigation.PushAsync(new DDescriptionPage(mydetails.DName, mydetails.DDescription, mydetails.DSymptoms, mydetails.MGender, mydetails.DAgeLow, mydetails.DAgeHigh));
         }
     }
 }
