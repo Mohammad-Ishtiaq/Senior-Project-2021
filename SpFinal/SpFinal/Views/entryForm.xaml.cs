@@ -20,15 +20,38 @@ namespace SpFinal.Views
 
         void Enter_Clicked(object sender, EventArgs e)
         {
-            Navigation.ShowPopup(new warning()
+            if (DAge.Text == null)
             {
+                Navigation.ShowPopup(new warning()
+                {
 
-                IsLightDismissEnabled = false
+                    IsLightDismissEnabled = false
 
-            }); ;
+                }); ;
+            }
+            else if( int.Parse(DAge.Text) >= 1 && int.Parse(DAge.Text) <= 150)
+            {
+                if (MGender.Text == null)
+                {
+                    Navigation.ShowPopup(new warning()
+                    {
 
-            Navigation.PushAsync(new Dlistpage());
+                        IsLightDismissEnabled = false
 
+                    }); ;
+                }
+                else if (MGender.Text.ToUpper() == "MALE" || MGender.Text.ToUpper() == "FEMALE")
+                {
+                    Navigation.ShowPopup(new warning()
+                    {
+
+                        IsLightDismissEnabled = false
+
+                    }); ;
+
+                    Navigation.PushAsync(new Dlistpage());
+                }
+            }
         }
     }
 }

@@ -17,6 +17,7 @@
                    HorizontalOptions="Start"
                    WidthRequest="280"
                    TextColor="Black"
+                   MaxLength="3"
                    Keyboard="Numeric"
                    Placeholder="Please Enter Age Between 0 - 150"/>
 
@@ -28,6 +29,7 @@
             <Entry x:Name="MGender"
                    HorizontalOptions="Start"
                    WidthRequest="206"
+                   MaxLength="6"
                    TextColor="Black"
                    Placeholder="Are you Male or Female?"/>
 
