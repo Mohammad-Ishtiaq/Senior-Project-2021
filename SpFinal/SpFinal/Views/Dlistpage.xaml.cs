@@ -42,7 +42,7 @@ namespace SpFinal.Views
                 var _container = BindingContext as DViewModel;
                 DisplayList.BeginRefresh();
 
-                DisplayList.ItemsSource = _container.DiseaseDetails.Where(i => i.DSymptoms.Contains(symptoms));
+                DisplayList.ItemsSource = _container.DiseaseDetails.Where(i => (i.DSymptoms.ToLower().Contains(symptoms.ToLower())) && (i.DAgeLow <= age && i.DAgeHigh >= age) /*&& (i.MGender.Contains(gender))*/ );
 
                 DisplayList.EndRefresh();
             }
