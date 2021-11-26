@@ -1,4 +1,5 @@
-﻿using SpFinal.ViewModel;
+﻿using SpFinal.Models;
+using SpFinal.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 using Xamarin.CommunityToolkit.Extensions;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SQLite;
 
 namespace SpFinal.Views
 {
@@ -48,6 +50,21 @@ namespace SpFinal.Views
                         IsLightDismissEnabled = false
 
                     }); ;
+
+                    PersonInfo personinfo = new PersonInfo()
+                    {
+                        PAge = int.Parse(DAge.Text),
+                        PGender = MGender.Text,
+                        PSymptoms = DSymptom.Text
+                    };
+
+                    using(SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+                    {
+                        conn.CreateTable<PersonInfo>();
+                        int rowsAdded = conn.Insert(personinfo);
+                    }
+
+
 
                     Navigation.PushAsync(new Dlistpage());
                 }

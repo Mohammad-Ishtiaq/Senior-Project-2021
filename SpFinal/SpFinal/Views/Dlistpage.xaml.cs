@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SQLite;
 
 namespace SpFinal.Views
 {
@@ -18,6 +19,17 @@ namespace SpFinal.Views
         {
             InitializeComponent();
             BindingContext = new DViewModel();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            using(SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<PersonInfo>();
+                var personinfo = conn.Table<PersonInfo>().ToList();
+            }
         }
 
         private async void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
