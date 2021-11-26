@@ -29,6 +29,22 @@ namespace SpFinal.Views
             {
                 conn.CreateTable<PersonInfo>();
                 var personinfo = conn.Table<PersonInfo>().ToList();
+
+                int age = personinfo[0].PAge;
+                string gender = personinfo[0].PGender;
+                string symptoms = personinfo[0].PSymptoms;
+
+                if(symptoms == null)
+                {
+                    symptoms = " ";
+                }
+
+                var _container = BindingContext as DViewModel;
+                DisplayList.BeginRefresh();
+
+                DisplayList.ItemsSource = _container.DiseaseDetails.Where(i => i.DSymptoms.Contains(symptoms));
+
+                DisplayList.EndRefresh();
             }
         }
 
@@ -36,6 +52,15 @@ namespace SpFinal.Views
         {
             var mydetails = e.Item as DListModel;
             await Navigation.PushAsync(new DDescriptionPage(mydetails.DName, mydetails.DDescription, mydetails.DSymptoms, mydetails.MGender, mydetails.DAgeLow, mydetails.DAgeHigh));
+        }
+
+        void DisplayList_ItemAppearing(object sender, ItemVisibilityEventArgs e)
+        {
+            var _container = BindingContext as DViewModel;
+            DisplayList.BeginRefresh();
+
+            DisplayList.EndRefresh();
+
         }
     }
 }

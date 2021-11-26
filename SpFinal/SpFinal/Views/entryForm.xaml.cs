@@ -60,6 +60,7 @@ namespace SpFinal.Views
 
                     using(SQLiteConnection conn = new SQLiteConnection(App.FilePath))
                     {
+                        conn.DeleteAll<PersonInfo>();
                         conn.CreateTable<PersonInfo>();
                         int rowsAdded = conn.Insert(personinfo);
                     }
