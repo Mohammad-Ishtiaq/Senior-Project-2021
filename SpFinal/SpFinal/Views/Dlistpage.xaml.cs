@@ -54,13 +54,5 @@ namespace SpFinal.Views
             await Navigation.PushAsync(new DDescriptionPage(mydetails.DName, mydetails.DDescription, mydetails.DSymptoms, mydetails.MGender, mydetails.DAgeLow, mydetails.DAgeHigh));
         }
 
-        void DisplayList_ItemAppearing(object sender, ItemVisibilityEventArgs e)
-        {
-            var _container = BindingContext as DViewModel;
-            DisplayList.BeginRefresh();
-
-            DisplayList.EndRefresh();
-
-        }
     }
 }

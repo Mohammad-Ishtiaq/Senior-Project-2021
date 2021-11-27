@@ -8,8 +8,7 @@
         <StackLayout>
             <ListView x:Name="DisplayList"
                       ItemsSource="{Binding  DiseaseDetails}"
-                      ItemTapped="ListView_ItemTapped"
-                      ItemAppearing="DisplayList_ItemAppearing">
+                      ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding DName}" 
