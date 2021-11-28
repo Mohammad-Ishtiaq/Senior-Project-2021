@@ -30,19 +30,15 @@ namespace SpFinal.Views
                 conn.CreateTable<PersonInfo>();
                 var personinfo = conn.Table<PersonInfo>().ToList();
 
-                int age = personinfo[0].PAge;
-                string gender = personinfo[0].PGender;
-                string symptoms = personinfo[0].PSymptoms;
-
-                if(symptoms == null)
+                if(personinfo[0].PSymptoms == null)
                 {
-                    symptoms = " ";
+                    personinfo[0].PSymptoms = " ";
                 }
 
                 var _container = BindingContext as DViewModel;
                 DisplayList.BeginRefresh();
 
-                DisplayList.ItemsSource = _container.DiseaseDetails.Where(i => (i.DSymptoms.ToLower().Contains(symptoms.ToLower())) && (i.DAgeLow <= age && i.DAgeHigh >= age) /*&& (i.MGender.Contains(gender))*/ );
+                DisplayList.ItemsSource = _container.DiseaseDetails.Where(i => (i.DSymptoms.ToLower().Contains(personinfo[0].PSymptoms.ToLower())) && (i.DAgeLow <= personinfo[0].PAge && i.DAgeHigh >= personinfo[0].PAge) /*&& (i.MGender.Contains(personinfo[0].PGender))*/ );
 
                 DisplayList.EndRefresh();
             }
