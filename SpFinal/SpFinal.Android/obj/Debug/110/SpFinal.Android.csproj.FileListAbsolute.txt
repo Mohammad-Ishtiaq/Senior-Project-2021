@@ -1783,7 +1783,6 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.A
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\res\drawable\questionare.png
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\SpFinal.Android.csproj.CopyComplete
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\lp\47\jl\files.cache
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\lp\53\jl\files.cache
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\lp\57\jl\files.cache
@@ -1801,3 +1800,6 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.A
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\android\assets\System.Buffers.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\android\assets\System.Memory.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\lp\52\jl\files.cache
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\android\src\androidx\lifecycle\runtime\R.java
+C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\SpFinal.Android.csproj.CopyComplete

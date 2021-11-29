@@ -1,4 +1,6 @@
-﻿using SpFinal.Views;
+﻿using SpFinal.Models;
+using SpFinal.Views;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +20,11 @@ namespace SpFinal
 
         void symptomChecker_Clicked(object sender, EventArgs e)
         {
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<PersonInfo>();
+            }
+
             Navigation.PushAsync(new entryForm());
         }
 

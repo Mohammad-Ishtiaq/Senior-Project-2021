@@ -15,11 +15,12 @@
                    Text="Age"/>
             <Entry x:Name="DAge"
                    HorizontalOptions="Start"
-                   WidthRequest="280"
+                   WidthRequest="295"
                    TextColor="Black"
                    MaxLength="3"
                    Keyboard="Numeric"
-                   Placeholder="Please Enter Age Between 0 - 150"/>
+                   Placeholder="Please Enter Age Between 1 - 150"
+                   PlaceholderColor="DarkGray"/>
 
             <Label Padding="5,10,0,0"
                    TextColor="Black" 
@@ -31,7 +32,8 @@
                    WidthRequest="206"
                    MaxLength="6"
                    TextColor="Black"
-                   Placeholder="Are you Male or Female?"/>
+                   Placeholder="Are you Male or Female?"
+                   PlaceholderColor="DarkGray"/>
 
             <Label Padding="5,30,0,0"
                    TextColor="Black" 
@@ -47,7 +49,8 @@
                    HorizontalOptions="Start"
                    WidthRequest="330"
                    TextColor="Black"
-                   Placeholder="Seperate each symptom with a ','"/>
+                   Placeholder="Seperate each symptom with a ','"
+                   PlaceholderColor="DarkGray"/>
 
             <Label Padding="0,0,0,0"/>
 

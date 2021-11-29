@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SHvQMws/mbCthx5cqIFpLPGvXZtEWwNHfkvEWbrS6EO7gsPG9MnhuQBIVTmarWrZ6GomjMjotcK5dJ+N8vst5g==",
+  "dgSpecHash": "Og1vKsnYaGWaaaWEgduyByAbviKK4CZzNCaTDKN99lbMtcWYV2LvTkyemcCzz/Y9SjhDtDcPQOQfhAR4nZr59g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal\\SpFinal.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,7 @@
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
