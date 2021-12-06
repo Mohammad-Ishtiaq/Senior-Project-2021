@@ -22,6 +22,27 @@ namespace SpFinal.Views
 
         void Enter_Clicked(object sender, EventArgs e)
         {
+            /*
+             *Here we are doing a simple type check.
+             *1. We first check if the age that is entered is between 1 - 150.
+             *      If this check is failed, the warning popup appears.
+             * 
+             *2. Then we check if the user enters a geder which matches "male" or "female"
+             *      If this check is failed, the warning popup appears.
+             *      
+             *Once the checks are passed:
+             *We make a new instance of PersonalInfo (Senior-Project-2021\SpFinal\SpFinal\Models\PersonInfo.cs)
+             *PersonalInfo is the class or object which holds the information inputed by the user in the entry fourm.
+             *
+             *We make a connection to the Sqlite database like we did before.
+             *We delete the existing DB entries in (PersonInfo):
+             *  We do this because it ensures that at every instance of our application we
+             *  only have 1 entry in the DB.
+             *  This helps us make reading information much easier, faster, and accurate later
+             *  on when we want to manipulate it.
+             */
+
+
             if (DAge.Text == null)
             {
                 Navigation.ShowPopup(new warning()

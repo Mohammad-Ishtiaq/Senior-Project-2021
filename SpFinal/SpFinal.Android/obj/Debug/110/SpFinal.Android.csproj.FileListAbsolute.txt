@@ -1802,4 +1802,3 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.A
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\lp\52\jl\files.cache
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\android\src\androidx\lifecycle\runtime\R.java
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal.Android\obj\Debug\110\SpFinal.Android.csproj.CopyComplete
