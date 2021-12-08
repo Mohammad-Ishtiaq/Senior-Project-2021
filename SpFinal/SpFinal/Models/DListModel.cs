@@ -22,6 +22,6 @@ namespace SpFinal.Models
         public string MGender { get; set; }
 
         //List of symptoms for the diease
-        public List<string> DSymptoms { get; set; }
+        public string DSymptoms { get; set; }
     }
 }
