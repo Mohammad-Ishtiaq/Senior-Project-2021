@@ -19,7 +19,7 @@
                FontSize="Medium"
                Padding="0,0,0,50"
                TextColor="Black"
-               Text="This app provides useful information but is not a substitute for proffesinoal medical advice, diagnoise, or treatment."/>
+               Text="This app provides useful information but is not a substitute for proffessional medical advice, diagnoise, or treatment."/>
 
         <Button x:Name="agreed"
                 Clicked="agreed_Clicked"

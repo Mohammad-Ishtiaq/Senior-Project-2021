@@ -1561,27 +1561,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\hutch\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.iOS\\SpFinal.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\hutch\\Source\\Repos\\Senior-Project-2021\\SpFinal\\SpFinal.iOS\\SpFinal.iOS.csproj",
       "projectName": "SpFinal.iOS",
-      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.iOS\\SpFinal.iOS.csproj",
-      "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.iOS\\obj\\",
+      "projectPath": "C:\\Users\\hutch\\Source\\Repos\\Senior-Project-2021\\SpFinal\\SpFinal.iOS\\SpFinal.iOS.csproj",
+      "packagesPath": "C:\\Users\\hutch\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hutch\\Source\\Repos\\Senior-Project-2021\\SpFinal\\SpFinal.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mohammad Ishtiaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hutch\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1595,8 +1592,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal\\SpFinal.csproj": {
-              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal\\SpFinal.csproj"
+            "C:\\Users\\hutch\\Source\\Repos\\Senior-Project-2021\\SpFinal\\SpFinal\\SpFinal.csproj": {
+              "projectPath": "C:\\Users\\hutch\\Source\\Repos\\Senior-Project-2021\\SpFinal\\SpFinal\\SpFinal.csproj"
             }
           }
         }

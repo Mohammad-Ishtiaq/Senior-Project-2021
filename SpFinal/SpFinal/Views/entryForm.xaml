@@ -44,13 +44,37 @@
                    TextColor="Black" 
                    FontSize="Medium"
                    FontAttributes="Bold"
-                   Text="most to least sevier below:"/>
-            <Entry x:Name="DSymptom"
+                   Text="most to least severe below:"/>
+            <Entry TextChanged="DSymptom_OnTextChanged"
+                   x:Name="DSymptoms"
                    HorizontalOptions="Start"
                    WidthRequest="330"
                    TextColor="Black"
                    Placeholder="Seperate each symptom with a ','"
                    PlaceholderColor="DarkGray"/>
+
+            
+            <ListView x:Name="symptomListView"
+                      IsVisible="False"
+                      CachingStrategy="RecycleElement"
+                      BackgroundColor="White"
+                      ItemTapped="ListView_OnItemTapped"
+                      AbsoluteLayout.LayoutBounds="20,110,269,160"
+                      AbsoluteLayout.LayoutFlags="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame>
+                                <StackLayout BackgroundColor="White">
+                                    <Label Text="{Binding .}" 
+                                           FontSize="16" 
+                                           TextColor="#FF464859"/>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
             <Label Padding="0,0,0,0"/>
 

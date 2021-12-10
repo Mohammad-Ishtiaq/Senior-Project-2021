@@ -51,3 +51,22 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\b
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.pdb
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\DDescriptionPage.xaml.g.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.csproj.AssemblyReference.cache
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\DDescriptionPage.xaml.g.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\Dlistpage.xaml.g.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\entryForm.xaml.g.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\warning.xaml.g.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.AssemblyInfoInputs.cache
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.AssemblyInfo.cs
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.csproj.CoreCompileInputs.cache
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.dll
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\ref\SpFinal.dll
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.pdb
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.deps.json
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.dll
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\bin\Debug\netstandard2.0\ref\SpFinal.dll
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.pdb
+C:\Users\hutch\Source\Repos\Senior-Project-2021\SpFinal\SpFinal\obj\Debug\netstandard2.0\XamlC.stamp

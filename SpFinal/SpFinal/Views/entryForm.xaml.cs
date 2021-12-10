@@ -9,17 +9,70 @@ using Xamarin.CommunityToolkit.Extensions;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SQLite;
+using System.Collections.ObjectModel;
+using System.Text.RegularExpressions;
+
 
 namespace SpFinal.Views
 {
+    
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class entryForm : ContentPage
     {
+        ObservableCollection<string> symptoms = new ObservableCollection<string>();
         public entryForm()
         {
             InitializeComponent();
+            ListOfSymptoms();
         }
+        public async void ListOfSymptoms()
+        {
+            try
+            {
+                symptoms.Add("Cough");
+                symptoms.Add("Headache");
+                symptoms.Add("Fever");
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("", "" + ex, "Ok");
+            }
+        }
+        private void DSymptom_OnTextChanged(object sender, TextChangedEventArgs e)
+        {
+            symptomListView.IsVisible = true;
+            symptomListView.BeginRefresh();
 
+            try
+            {
+                var dataEmpty = symptoms.Where(i => i.ToLower().Contains(e.NewTextValue.ToLower()));
+
+                if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                    symptomListView.IsVisible = false;
+                else if (dataEmpty.Max().Length == 0)
+                    symptomListView.IsVisible = false;
+                else
+                    symptomListView.ItemsSource = dataEmpty.Where(i => i.ToLower().Contains(e.NewTextValue.ToLower()));
+            }
+            catch
+            {
+                symptomListView.IsVisible = false;
+            }
+            symptomListView.EndRefresh();
+        }
+        private void ListView_OnItemTapped(Object sender, ItemTappedEventArgs e)
+        {
+            String listsd = e.Item as string;
+            //
+            //string input = DSymptoms.Text;
+            //if (regex.IsMatch(input))
+               // DSymptoms.Text = input.Substring(0, input.LastIndexOf(',')) + ", "+ listsd +", ";
+            //else
+               DSymptoms.Text = listsd + ", ";
+            symptomListView.IsVisible = false;
+
+            ((ListView)sender).SelectedItem = null;
+        }
         void Enter_Clicked(object sender, EventArgs e)
         {
             /*
@@ -76,7 +129,7 @@ namespace SpFinal.Views
                     {
                         PAge = int.Parse(DAge.Text),
                         PGender = MGender.Text,
-                        PSymptoms = DSymptom.Text
+                        PSymptoms = DSymptoms.Text //new List<string>(DSymptom.Text.Split(','))
                     };
 
                     using(SQLiteConnection conn = new SQLiteConnection(App.FilePath))

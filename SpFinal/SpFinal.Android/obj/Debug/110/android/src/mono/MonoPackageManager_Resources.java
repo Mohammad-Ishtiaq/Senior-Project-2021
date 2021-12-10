@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "SpFinal.Android.dll" comes first in this list. */
 		"SpFinal.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"SpFinal.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
