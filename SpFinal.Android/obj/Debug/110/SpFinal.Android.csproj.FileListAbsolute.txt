@@ -3294,4 +3294,3 @@ C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal.Android\o
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Mohammad Ishtiaq\Documents\GitHub\Senior-Project-2021\SpFinal.Android\obj\Debug\110\SpFinal.Android.csproj.CopyComplete
