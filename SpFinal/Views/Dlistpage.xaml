@@ -9,11 +9,15 @@
         <StackLayout>
             <ListView x:Name="DisplayList"
                       ItemsSource="{Binding  DiseaseDetails}"
-                      ItemTapped="ListView_ItemTapped">
+                      ItemTapped="ListView_ItemTapped"
+                      RowHeight="70"
+                      Header="Basic Disease Information located and retirved from https://www.mayoclinic.org/"
+                      Footer="If noting appears, then re-enter symptoms!"
+                      IsPullToRefreshEnabled="False">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding DName}" 
-                                  Detail="{Binding DRank}"
+                        <TextCell Text="{Binding DName}"
+                                  Detail="{Binding DDescription}"
                                   TextColor="Black"
                                   DetailColor="Black"/>
                     </DataTemplate>

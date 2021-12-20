@@ -53,20 +53,6 @@ namespace SpFinal.ManyMenus
             // Get user crunt location atributes
             try
             {
-                /*
-                var location = await Geolocation.GetLastKnownLocationAsync();
-
-                if (location == null)
-                {
-                    location = await Geolocation.GetLocationAsync(new GeolocationRequest
-                    {
-                        DesiredAccuracy = GeolocationAccuracy.Medium,
-                        Timeout = TimeSpan.FromSeconds(30)
-                    });
-
-                }
-                */
-
                 var request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
                 cts = new CancellationTokenSource();
                 var location = await Geolocation.GetLocationAsync(request, cts.Token);
@@ -99,7 +85,7 @@ namespace SpFinal.ManyMenus
             }
             catch (Exception)
             {
-                Debug.WriteLine("IT NO WORK");
+                await DisplayAlert("Warning", "There seems to be an issue loading location data. Please move to a location with service, wifi, or turn off airplane mode.", "OK");
             }
         }
 

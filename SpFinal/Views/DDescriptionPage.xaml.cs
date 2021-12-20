@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -13,6 +14,8 @@ namespace SpFinal.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DDescriptionPage : ContentPage
     {
+
+        CancellationTokenSource cts;
 
         public DDescriptionPage(string Name, string Description, string Symptoms, string MG, int AL, int AH)
         {
@@ -29,7 +32,10 @@ namespace SpFinal.Views
         {
             try
             {
-                var location = await Geolocation.GetLastKnownLocationAsync();
+                var request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
+                cts = new CancellationTokenSource();
+                var location = await Geolocation.GetLocationAsync(request, cts.Token);
+
                 if (location == null)
                 {
                     location = await Geolocation.GetLocationAsync(new GeolocationRequest
@@ -41,7 +47,7 @@ namespace SpFinal.Views
                 }
                 if (location == null)
                 {
-                    Debug.WriteLine("NO GPS");
+                    await DisplayAlert("Warning", "There seems to be an issue loading location data. Please move to a location with service, wifi, or turn off airplane mode.", "OK");
                 }
 
                 if (location != null)
@@ -51,7 +57,7 @@ namespace SpFinal.Views
             }
             catch (Exception)
             {
-                Debug.WriteLine("IT NO WORK");
+                await DisplayAlert("Warning", "There seems to be an issue loading location data. Please move to a location with service, wifi, or turn off airplane mode.", "OK");
             }
         }
     }
