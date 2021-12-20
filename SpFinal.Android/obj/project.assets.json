@@ -5427,11 +5427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.Android\\SpFinal.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.Android\\SpFinal.Android.csproj",
       "projectName": "SpFinal.Android",
-      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.Android\\SpFinal.Android.csproj",
+      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.Android\\SpFinal.Android.csproj",
       "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.Android\\obj\\",
+      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5454,8 +5454,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj": {
-              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj"
+            "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj": {
+              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj"
             }
           }
         }

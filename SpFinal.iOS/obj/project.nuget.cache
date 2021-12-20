@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yLT6XRfC5JLsfomhdEkYmTN6P226HwpNIbP7okDVpbE8pzmraCuRnGRlTN6vzQZvwPrQvbUD5cNo/vaFSSvgKQ==",
+  "dgSpecHash": "LsqefzupUIeHNom0pSvSweseZa4o501W0EB306ypsDZAJug7amH/UldSDjFQ3UdsoY5JowTp32Uz4Lvevac3+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.iOS\\SpFinal.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.iOS\\SpFinal.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

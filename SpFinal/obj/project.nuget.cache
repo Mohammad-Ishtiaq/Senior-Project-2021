@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nQ4IbU2X3AQndFyMLgqlQ0AEq6Sma1jUToIm9eax9fDb8g9x8CSc7ybCps6hFLbdLQ/S0Nckd+HikT5pEfQOng==",
+  "dgSpecHash": "+UsOiUJkDF4W0v695nJCL7Ez9nh5FfmrhhfzfAEN3L5/BeXWO4hiLR+/vJaJRu661R517RqX7G81wDCYfSNwYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj",
+  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

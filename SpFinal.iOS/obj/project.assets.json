@@ -1987,11 +1987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.iOS\\SpFinal.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.iOS\\SpFinal.iOS.csproj",
       "projectName": "SpFinal.iOS",
-      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.iOS\\SpFinal.iOS.csproj",
+      "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.iOS\\SpFinal.iOS.csproj",
       "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2014,8 +2014,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj": {
-              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj"
+            "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj": {
+              "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj"
             }
           }
         }

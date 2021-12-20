@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj": {}
+    "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj": {
+    "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj",
         "projectName": "SpFinal",
-        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\SpFinal.csproj",
+        "projectPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\SpFinal.csproj",
         "packagesPath": "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal\\obj\\",
+        "outputPath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bA8fuqerZmz22lU1MIwlYzS4M0x6odOzLgJ0Vflt48h7RSvPluGp657ePX83/jssxqtnkG92Pyn5/cN3Whbpgg==",
+  "dgSpecHash": "E1Az8PSH1cDAtsDkPxs8Qc2N9wXO8aVTy3Ba+UFDk8guSbhdt+GGhqd/I0oVJFUfJ3eSi7zV72AiHJ+6dSv74w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Desktop\\SpFinal\\SpFinal.Android\\SpFinal.Android.csproj",
+  "projectFilePath": "C:\\Users\\Mohammad Ishtiaq\\Documents\\GitHub\\Senior-Project-2021\\SpFinal.Android\\SpFinal.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Mohammad Ishtiaq\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
