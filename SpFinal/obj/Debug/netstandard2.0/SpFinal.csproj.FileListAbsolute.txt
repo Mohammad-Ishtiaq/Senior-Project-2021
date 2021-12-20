@@ -1,0 +1,95 @@
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.deps.json
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/bin/Debug/netstandard2.0/ref/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.pdb
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfoInputs.cache
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfo.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csproj.CoreCompileInputs.cache
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/ref/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.pdb
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csproj.AssemblyReference.cache
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/entryForm.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/warning.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csproj.AssemblyReference.cache
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/Dlistpage.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/entryForm.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/warning.xaml.g.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfoInputs.cache
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfo.cs
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csproj.CoreCompileInputs.cache
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/ref/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.pdb
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.deps.json
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/bin/Debug/netstandard2.0/ref/SpFinal.dll
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.pdb
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Mohammad Ishtiaq/Documents/GitHub/Senior-Project-2021/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/DDescriptionPage.xaml.g.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.deps.json
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.dll
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/bin/Debug/netstandard2.0/ref/SpFinal.dll
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.pdb
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csprojAssemblyReference.cache
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/DDescriptionPage.xaml.g.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/Dlistpage.xaml.g.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/entryForm.xaml.g.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/warning.xaml.g.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfoInputs.cache
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfo.cs
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csproj.CoreCompileInputs.cache
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.dll
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/ref/SpFinal.dll
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.pdb
+C:/Users/Usman/Downloads/Senior-Project-2021-main (1)/Senior-Project-2021-main/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/CovidCheckerButton.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.deps.json
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.dll
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/bin/Debug/netstandard2.0/ref/SpFinal.dll
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/bin/Debug/netstandard2.0/SpFinal.pdb
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csproj.AssemblyReference.cache
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/CovidCheckerButton.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/DDescriptionPage.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/Dlistpage.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/entryForm.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/Views/warning.xaml.g.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfoInputs.cache
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.AssemblyInfo.cs
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.csproj.CoreCompileInputs.cache
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.dll
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/ref/SpFinal.dll
+/Users/nusratbainya/Downloads/SpFinal/SpFinal/obj/Debug/netstandard2.0/SpFinal.pdb
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.deps.json
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.dll
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\bin\Debug\netstandard2.0\ref\SpFinal.dll
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\bin\Debug\netstandard2.0\SpFinal.pdb
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\CovidCheckerButton.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\DDescriptionPage.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\Dlistpage.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\entryForm.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\Views\warning.xaml.g.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.AssemblyInfoInputs.cache
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.AssemblyInfo.cs
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.dll
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\ref\SpFinal.dll
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.pdb
+C:\Users\Mohammad Ishtiaq\Desktop\SpFinal\SpFinal\obj\Debug\netstandard2.0\SpFinal.csproj.AssemblyReference.cache

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Indept Description"
+             BackgroundColor="White"
+             x:Class="SpFinal.Views.DDescriptionPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10,10,10,0">
+
+                <Label x:Name="DName" 
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextDecorations="Underline"
+                   TextColor="Black"
+                   />
+
+
+                <Label x:Name="DDescripion"
+                   FontSize="Medium"
+                   Padding="0,20,0,0"
+                   TextColor="Black"/>
+
+
+
+                <Label x:Name="DSymptoms"
+                   FontSize="Medium"
+                   Padding="0,20,0,0"
+                   TextColor="Black"/>
+
+
+
+                <Label x:Name="MGender"
+                   FontSize="Medium"
+                   Padding="0,20,0,0"
+                   TextColor="Black"/>
+
+
+                <Label x:Name="AgeRange"
+                   FontSize="Medium"
+                   Padding="0,20,0,20"
+                   TextColor="Black"/>
+
+                <Button x:Name="Doctor"
+                        Text="Find a Doctor"
+                        HorizontalOptions="Center"
+                        Padding="10,0,10,0"
+                        Clicked="Doctor_Clicked"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

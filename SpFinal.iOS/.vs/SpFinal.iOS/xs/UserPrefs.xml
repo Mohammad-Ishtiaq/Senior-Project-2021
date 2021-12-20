@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{27E6F447-FF4D-402C-9878-1182BB89F854}|Default">
+  <MonoDevelop.Ide.ItemProperties.SpFinal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.161DDBA5-C4B1-47A0-A0E4-EA4D94BD06B3" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SpFinal.iOS" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

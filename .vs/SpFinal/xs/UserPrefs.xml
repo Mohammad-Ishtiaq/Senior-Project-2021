@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{27E6F447-FF4D-402C-9878-1182BB89F854}|Default">
+  <MonoDevelop.Ide.ItemProperties.SpFinal.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.SpFinal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.161DDBA5-C4B1-47A0-A0E4-EA4D94BD06B3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpFinal/Views/CovidCheckerButton.xaml.cs">
+    <Files>
+      <File FileName="SpFinal.iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="SpFinal/Views/CovidCheckerButton.xaml.cs" Line="93" Column="92" />
+      <File FileName="SpFinal/Views/entryForm.xaml.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

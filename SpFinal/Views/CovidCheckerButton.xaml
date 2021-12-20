@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:SpFinal.Models"
+             BackgroundColor="White"
+             x:Class="SpFinal.ManyMenus.CovidCheckerButton">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowDefinitions="Auto,*">
+                <Frame Padding="0" Margin="10" Grid.Row="0" CornerRadius="5">
+                    <StackLayout  Orientation="Horizontal" BackgroundColor="LightBlue">
+                        <StackLayout Margin="5" HorizontalOptions="StartAndExpand">
+                            <Label Text="Location base covid Data" FontSize="20" FontAttributes="Bold"/>
+                            <Label Text="CountryName" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Country Code"  FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Admin Area" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Sub Area" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Sub Locality" FontAttributes="Bold" TextColor="Green"/>
+                            <Label Text="Confirmed" FontAttributes="Bold" TextColor="Red"/>
+                            <Label Text="Deaths" FontAttributes="Bold" TextColor="Red"/>
+                            <Label Text="Daily" FontAttributes="Bold" TextColor="Red"/>
+                            <Label Text="Covid News" FontSize="20" FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout Margin="5,35,5,0" HorizontalOptions="EndAndExpand">
+                            <Label x:Name="TxtCountry" TextColor="Black"/>
+                            <Label x:Name="TxtCountryCode" TextColor="Black"/>
+                            <Label x:Name="TxtAdminArea" TextColor="Black"/>
+                            <Label x:Name="TxtSubArea" TextColor="Black"/>
+                            <Label x:Name="TxtSubLocality" TextColor="Black"/>
+                            <Label x:Name="TxtConfirmed" TextColor="Black"/>
+                            <Label x:Name="TxtDeaths" TextColor="Black"/>
+                            <Label x:Name="TxtDaily"  TextColor="Black"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <StackLayout Grid.Row="1" Margin="15,5,15,5">
+                    <ActivityIndicator IsRunning="False"  Color="GreenYellow" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="False" x:Name="IsLoadind"/>
+                    <ListView HasUnevenRows="True"  HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" ItemsSource="{Binding News}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:News">
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <Frame Margin="0,10,0,0" CornerRadius="5"   BackgroundColor="LightCyan"  HasShadow="True" >
+                                            <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                                                <StackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped"/>
+                                                </StackLayout.GestureRecognizers>
+                                                <StackLayout  BackgroundColor="Red" HorizontalOptions="Fill" VerticalOptions="Fill" WidthRequest="10">
+                                                </StackLayout>
+                                                <StackLayout Orientation="Vertical">
+                                                    <StackLayout>
+                                                        <Label VerticalOptions="Center" Margin="5,0,2,0" TextColor="Black" Text="{Binding title}" FontSize="18" MaxLines="3" FontAttributes="Bold"/>
+                                                    </StackLayout>
+                                                    <StackLayout>
+                                                        <Label Text="{Binding excerpt}" TextColor="Black"/>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Frame>
+                                    </ViewCell.View>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
