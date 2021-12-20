@@ -44,15 +44,9 @@ namespace SpFinal.Views
                         Timeout = TimeSpan.FromSeconds(30)
                     });
 
-                }
-                if (location == null)
+                }else if (location != null)
                 {
-                    await DisplayAlert("Warning", "There seems to be an issue loading location data. Please move to a location with service, wifi, or turn off airplane mode.", "OK");
-                }
-
-                if (location != null)
-                {
-                    Browser.OpenAsync("https://www.google.com/maps/search/" + DName.Text + "+Doctor+near+me/@"+location.Latitude+","+location.Longitude, BrowserLaunchMode.SystemPreferred);
+                    await Browser.OpenAsync("https://www.google.com/maps/search/" + DName.Text + "+Doctor+near+me/@"+location.Latitude+","+location.Longitude, BrowserLaunchMode.SystemPreferred);
                 }
             }
             catch (Exception)

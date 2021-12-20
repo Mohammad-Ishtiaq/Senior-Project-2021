@@ -95,6 +95,13 @@ namespace SpFinal.Views
                             }
                         }
                     }
+
+                    if (Dlist.DiseaseDetails[i].DRank == 0.0)
+                    {
+                        Dlist.DiseaseDetails.RemoveAt(i);
+                        i--;
+                    }
+
                 }
 
                 //Enter refreshing state of disease list
