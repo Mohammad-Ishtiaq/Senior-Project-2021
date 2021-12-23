@@ -51,9 +51,6 @@
                                                     <StackLayout>
                                                         <Label VerticalOptions="Center" Margin="5,0,2,0" TextColor="Black" Text="{Binding title}" FontSize="18" MaxLines="3" FontAttributes="Bold"/>
                                                     </StackLayout>
-                                                    <StackLayout>
-                                                        <Label Text="{Binding excerpt}" TextColor="Black"/>
-                                                    </StackLayout>
                                                 </StackLayout>
                                             </StackLayout>
                                         </Frame>

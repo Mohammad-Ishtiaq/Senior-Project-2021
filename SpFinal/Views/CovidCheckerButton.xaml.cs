@@ -137,6 +137,7 @@ namespace SpFinal.ManyMenus
             base.OnDisappearing();
         }
 
+        
         /// <summary>
         /// this function get all new from new api according to user crunt locatio like country etc
         /// </summary>
@@ -145,22 +146,16 @@ namespace SpFinal.ManyMenus
             //Used try cath 
             try
             {
-                /// string path for news api and pass country code 
-                string url = "https://coronavirus-smartable.p.rapidapi.com/news/v1/" + TxtCountryCode.Text + "/";
-                //create New http clint for get data from server for news api 
                 var client = new HttpClient();
-                //passed all requird parameters
                 var request = new HttpRequestMessage
                 {
                     Method = HttpMethod.Get,
-                    RequestUri = new Uri(url),
+                    RequestUri = new Uri("https://coronavirus-smartable.p.rapidapi.com/news/v1/US/"),
                     Headers =
-                {
-                        //host name 
-                    { "x-rapidapi-host", "coronavirus-smartable.p.rapidapi.com" },
-                    //Api key for access this api
-                    { "x-rapidapi-key", "6864cea06cmshffe4319ec6332a8p1e21e6jsn8627414216ad" },
-                },
+                        {
+                            { "x-rapidapi-host", "coronavirus-smartable.p.rapidapi.com" },
+                            { "x-rapidapi-key", "ed71d9c213msh299ff03e5494a28p188757jsn324bcd103f6b" },
+                        },
                 };
                 // Send requiest to the servr 
                 using (var response = await client.SendAsync(request))
@@ -186,7 +181,8 @@ namespace SpFinal.ManyMenus
             IsLoadind.IsVisible = false;
             IsLoadind.IsRunning = false;
         }
-
+        
+        
         /// <summary>
         /// This is tap event for the news details 
         /// </summary>
