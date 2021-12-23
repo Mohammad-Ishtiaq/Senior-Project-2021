@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="Search Forum"
-             NavigationPage.HasNavigationBar="true"
+             xmlns:local="clr-namespace:SpFinal"
              BackgroundImageSource="questionare.png"
-             x:Class="SpFinal.Views.entryForm">
-    <ContentPage.Content>
+             BackgroundColor="Black"
+             Title="Symptom cheacker"
+             x:Class="SpFinal.EntryFormPage">
 
-        <StackLayout Padding="30,0,0,0">
-            <Label Padding="5,140,0,0"
+    <StackLayout Padding="30,0,35,0">
+        <Label Padding="5,140,0,0"
                    TextColor="Black" 
                    FontSize="Medium"
                    FontAttributes="Bold"
                    Text="Age"/>
-            <Entry x:Name="DAge"
+        <Entry x:Name="DAge"
                    HorizontalOptions="Start"
                    WidthRequest="295"
                    TextColor="Black"
@@ -23,12 +23,12 @@
                    Placeholder="Please Enter Age Between 1 - 150"
                    PlaceholderColor="DarkGray"/>
 
-            <Label Padding="5,10,0,0"
+        <Label Padding="5,10,0,0"
                    TextColor="Black" 
                    FontSize="Medium"
                    FontAttributes="Bold"
                    Text="Gender"/>
-            <Entry x:Name="MGender"
+        <Entry x:Name="MGender"
                    HorizontalOptions="Start"
                    WidthRequest="206"
                    MaxLength="6"
@@ -37,12 +37,17 @@
                    Placeholder="Are you Male or Female?"
                    PlaceholderColor="DarkGray"/>
 
-            <Label Padding="5,30,0,0"
+        <Label Padding="5,30,0,0"
                    TextColor="Black" 
                    FontSize="Medium"
                    FontAttributes="Bold"
-                   Text="Please enter your symptoms below:"/>
-            <Entry x:Name="DSymptom"
+                   Text="Please enter your symptoms from"/>
+        <Label Padding="5,0,0,0"
+                   TextColor="Black" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="most to least sevier below:"/>
+        <Entry x:Name="DSymptom"
                    HorizontalOptions="Start"
                    WidthRequest="330"
                    TextColor="Black"
@@ -50,19 +55,26 @@
                    Placeholder="Seperate each symptom with a ','"
                    PlaceholderColor="DarkGray"/>
 
-            <Label Padding="0,0,0,0"/>
+        <Label Padding="0,0,0,0"/>
 
-            <Button x:Name="Enter"
+        <Button x:Name="Enter"
                     Clicked="Enter_Clicked"
                     HorizontalOptions="Start"
+                    TextColor="White"
+                CornerRadius="30"
+                BackgroundColor="YellowGreen"
                     WidthRequest="330"
                     Text="Submit"/>
-
-
-
-
-        </StackLayout>
-
-    </ContentPage.Content>
-
+        <Button
+            x:Name="start"
+            Text="Speech To Text"
+            BackgroundColor="Purple"
+            TextColor="White"
+            CornerRadius="30"
+                Clicked="Start_Clicked"/>
+        <Label 
+            x:Name="recon"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+    </StackLayout>
 </ContentPage>
