@@ -1,162 +1,27 @@
-﻿using SQLite;
+﻿using SpFinal.Models;
+using SpFinal.ViewModel;
 using System;
-using Xamarin.Forms;
-using SpFinal.Models;
-using SpFinal.Views;
-using Xamarin.CommunityToolkit.Extensions;
-using System.Text;
-using System.Net.Http;
-using Newtonsoft.Json;
-using System.Diagnostics;
-using Xamarin.Essentials;
-using System.IO;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.CommunityToolkit.Extensions;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+using SQLite;
+using Xamarin.Essentials;
 
-namespace SpFinal
+namespace SpFinal.Views
 {
-    public partial class EntryFormPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class entryForm : ContentPage
     {
-        /// <summary>
-        /// this is page for entry of person sympth and create a instance of ISpeechToText
-        /// </summary>
-        private ISpeechToText _speechRecongnitionInstance;
-        int CountText = 1;
-        const string Stop_Words_File = "StopWordFile.txt";
-        public EntryFormPage()
+        public entryForm()
         {
             InitializeComponent();
-            CountText = 1;
-            ///used DependencyService
-            try
-            {
-                _speechRecongnitionInstance = DependencyService.Get<ISpeechToText>();
-            }
-            catch (Exception ex)
-            {
-                recon.Text = ex.Message;
-            }
-
-            //its used for subscribe ISpeechToText
-            MessagingCenter.Subscribe<ISpeechToText, string>(this, "STT", (sender, args) =>
-            {
-                SpeechToTextFinalResultRecieved(args);
-            });
-
-            MessagingCenter.Subscribe<ISpeechToText>(this, "Final", (sender) =>
-            {
-                start.IsEnabled = true;
-            });
-            //its used for subscribe IMessageSender Final and return text speech to text and add in txt box
-            MessagingCenter.Subscribe<IMessageSender, string>(this, "STT", (sender, args) =>
-            {
-                SpeechToTextFinalResultRecieved(args);
-            });
-
         }
-        /// <summary>
-        /// this is the function used for adding text to text box used 
-        /// </summary>
-        /// <param name="args"></param>
-        private void SpeechToTextFinalResultRecieved(string args)
-        {
-            if (CountText == 1)
-            {
-                DAge.Text = args;
-                CountText++;
-            }
-            else if (CountText == 2)
-            {
-                MGender.Text = args;
-                CountText++;
-            }
-            else if (CountText == 3)
-            {
-                var str = args;
-                if (str != null)
-                {
-                    RemovedWord(str);
-                }
 
-                CountText++;
-            }
-
-        }
-        int index = 0;
-        private async void RemovedWord(string text)
-        {
-            try
-            {
-                using (var streem = await FileSystem.OpenAppPackageFileAsync(Stop_Words_File))
-                {
-                    using (var reader = new StreamReader(streem))
-                    {
-                        string word = await reader.ReadToEndAsync();
-                        string[] vs = word.Split();
-                        string[] speechText = text.Split();
-                        foreach (var s in speechText)
-                        {
-                            if (!vs.Contains(s))
-                            {
-                                DSymptom.Text = DSymptom.Text + s + ",";
-                            }
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-
-                Debug.WriteLine(ex.Message);
-            }
-        }
-        //string[] vs = str.Split();
-        //        foreach (var item in vs)
-        //        {
-
-        //            DSymptom.Text = DSymptom.Text + item + ",";
-        //        }
-        /// <summary>
-        /// this is Clicked event for voice to text
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private async void Start_Clicked(object sender, EventArgs e)
-        {
-            //call the function StartSpeechToText
-            try
-            {
-                if (CountText == 4)
-                {
-                    CountText = 1;
-                    DSymptom.Text = "";
-                    DAge.Text = "";
-                    MGender.Text = "";
-                    await DisplayAlert("Woring", "Kindly try again you have try more then requied data", "ok");
-                }
-                else
-                {
-                    _speechRecongnitionInstance.StartSpeechToText();
-                }
-            }
-            catch (Exception ex)
-            {
-                recon.Text = ex.Message;
-            }
-
-            if (Device.RuntimePlatform == Device.iOS)
-            {
-                start.IsEnabled = false;
-            }
-
-
-
-        }
-        /// <summary>
-        /// This event used for Enter_Clicked
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private async void Enter_Clicked(object sender, EventArgs e)
+        async void Enter_Clicked(object sender, EventArgs e)
         {
             /*
              *Here we are doing a simple type check.
@@ -178,11 +43,12 @@ namespace SpFinal
              *  on when we want to manipulate it.
              */
 
+
             if (DAge.Text == null)
             {
                 await DisplayAlert("Warning", "Please enter an age between 1 and 150", "OK");
             }
-            else if (int.Parse(DAge.Text) >= 1 && int.Parse(DAge.Text) <= 150)
+            else if( int.Parse(DAge.Text) >= 1 && int.Parse(DAge.Text) <= 150)
             {
                 if (MGender.Text == null)
                 {
@@ -224,4 +90,3 @@ namespace SpFinal
         }
     }
 }
-
