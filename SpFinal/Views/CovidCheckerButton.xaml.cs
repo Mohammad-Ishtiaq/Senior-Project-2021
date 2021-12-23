@@ -73,20 +73,23 @@ namespace SpFinal.ManyMenus
                         TxtSubArea.Text = country.SubAdminArea;
                         TxtSubLocality.Text = country.SubLocality;
                         //Pass parameters to this function 
-                        await GetCovidDataByLocaion(TxtAdminArea.Text);
+                        await GetCovidDataByLocaion(TxtAdminArea.Text, TxtSubArea.Text);
                         // Used console for run time testing only its prenting in output 
                         Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
                     }
                 }
-                else
-                {
-                    await DisplayAlert("Warning", "There seems to be an issue loading location data. Please move to a location with service, wifi, or turn off airplane mode.", "OK");
-                }
             }
             catch (Exception)
             {
-                await DisplayAlert("Warning", "There seems to be an issue loading location data. Please move to a location with service, wifi, or turn off airplane mode.", "OK");
+                TxtCountry.Text = "ERROR";
+                TxtCountryCode.Text = "ERROR";
+                TxtAdminArea.Text = "ERROR";
+                TxtSubArea.Text = "ERROR";
+                TxtSubLocality.Text = "ERROR";
+                TxtConfirmed.Text = "ERROR";
+                TxtDaily.Text = "ERROR";
             }
+
         }
 
 
@@ -95,7 +98,7 @@ namespace SpFinal.ManyMenus
         /// </summary>
         /// <param name="AdminArea"></param>
         /// <returns></returns>
-        private async Task GetCovidDataByLocaion(string AdminArea)
+        private async Task GetCovidDataByLocaion(string AdminArea, string County)
         {
             try
             {
@@ -104,7 +107,8 @@ namespace SpFinal.ManyMenus
                 // Ceate a Http clinet for get data from server side 
                 var httpClient = new HttpClient();
                 //pass the url of api its return all covid data in json formate
-                var response = await httpClient.GetStringAsync("https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service/REST-API/incoming_webhook/us_only?min_date=" + $"{yesterdayDate()}" + "&max_date=" + $"{todayDate()}" + "&hide_fields=_id,%20date,%20USA,%20NewYork,%20fips,%20uid");
+                var response = await httpClient.GetStringAsync($"https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service/REST-API/incoming_webhook/us_only?state=New%20York&county=New%20York" + "&min_date=" + $"{YesterdayDate()}" + "&max_date=" + $"{TodayDate()}" + "&hide_fields=_id,%20date,%20USA,%20fips,%20uid");
+
                 //Convert data json to text and parsing to our root model class
                 var responce = JsonConvert.DeserializeObject<List<Root>>(response);
                 //Used for each for filtring data by crunt location if is have record acording to the crunt location 
@@ -113,8 +117,7 @@ namespace SpFinal.ManyMenus
                     //Cheak if country is == to TxtAdminArea and country == to  user TxtSubArea 
                     if (item.county == TxtAdminArea.Text || item.county == TxtSubArea.Text)
                     {
-                        TxtConfirmed.Text = item.confirmed.ToString();
-                        TxtDeaths.Text = item.deaths.ToString();
+                        TxtConfirmed.Text = item.confirmed_daily.ToString();
                         TxtDaily.Text = item.deaths_daily.ToString();
                     }
                 }
@@ -206,15 +209,12 @@ namespace SpFinal.ManyMenus
         }
 
 
-        string todayDate()
+        string TodayDate()
         {
             string todayyear = DateTime.Now.Year.ToString();
             string todaymonth = DateTime.Now.Month.ToString();
             string todayday = (DateTime.Now.Day).ToString();
             string time = "00:00:00.000";
-
-            time = $"{time[0]}{time[1]}{time[2]}{time[3]}{time[4]}{time[5]}{time[6]}{time[7]}{time[8]}{time[9]}{time[10]}{time[11]}";
-
 
             switch (Convert.ToInt16(todaymonth))
             {
@@ -254,13 +254,140 @@ namespace SpFinal.ManyMenus
             return todayDateForApi;
         }
 
-        string yesterdayDate()
+        string YesterdayDate()
         {
             string todayyear = DateTime.Now.Year.ToString();
             string todaymonth = DateTime.Now.Month.ToString();
             string todayday = (DateTime.Now.Day-1).ToString();
             string time = "00:00:00.000";
 
+            //Leap Year Checker
+            if ((DateTime.Now.Year % 4) != 0)
+            {
+                int[] daysInMonthCheck = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+                //Check if we need to move to the previous month because we are on the first date of the new month.
+                if ((DateTime.Now.Day - 1) == 0)
+                {
+                    //Set the month back by 1
+                    todaymonth = (DateTime.Now.Month - 1).ToString();
+
+                    //Check if we are moving from january to december of the old year
+                    if ((DateTime.Now.Month - 1) == 0)
+                    {
+                        //Set the month to decemeber
+                        todaymonth = 12.ToString();
+                    }
+
+                    //Run a switch case to accurately display the previous months date.
+                    //We use the array defined above to distinguse what was the last day in the month we are moving back too.
+                    switch (DateTime.Now.Month - 1)
+                    {
+                        case 0: //December 31st of previous year
+                            todayday = daysInMonthCheck[11].ToString();
+                            todayyear = (DateTime.Now.Year - 1).ToString();
+                            break;
+                        case 1:
+                            todayday = daysInMonthCheck[0].ToString();
+                            break;
+                        case 2:
+                            todayday = daysInMonthCheck[1].ToString();
+                            break;
+                        case 3:
+                            todayday = daysInMonthCheck[2].ToString();
+                            break;
+                        case 4:
+                            todayday = daysInMonthCheck[3].ToString();
+                            break;
+                        case 5:
+                            todayday = daysInMonthCheck[4].ToString();
+                            break;
+                        case 6:
+                            todayday = daysInMonthCheck[5].ToString();
+                            break;
+                        case 7:
+                            todayday = daysInMonthCheck[6].ToString();
+                            break;
+                        case 8:
+                            todayday = daysInMonthCheck[7].ToString();
+                            break;
+                        case 9:
+                            todayday = daysInMonthCheck[8].ToString();
+                            break;
+                        case 10:
+                            todayday = daysInMonthCheck[9].ToString();
+                            break;
+                        case 11:
+                            todayday = daysInMonthCheck[10].ToString();
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+            else
+            {
+                int[] daysInMonthCheck = new int[] { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+                //Check if we need to move to the previous month because we are on the first date of the new month.
+                if ((DateTime.Now.Day - 1) == 0)
+                {
+                    //Set the month back by 1
+                    todaymonth = (DateTime.Now.Month - 1).ToString();
+
+                    //Check if we are moving from january to december of the old year
+                    if ((DateTime.Now.Month - 1) == 0)
+                    {
+                        //Set the month to decemeber
+                        todaymonth = 12.ToString();
+                    }
+
+                    //Run a switch case to accurately display the previous months date.
+                    //We use the array defined above to distinguse what was the last day in the month we are moving back too.
+                    switch (DateTime.Now.Month - 1)
+                    {
+                        case 0: //December 31st of previous year
+                            todayday = daysInMonthCheck[11].ToString();
+                            todayyear = (DateTime.Now.Year - 1).ToString();
+                            break;
+                        case 1:
+                            todayday = daysInMonthCheck[0].ToString();
+                            break;
+                        case 2:
+                            todayday = daysInMonthCheck[1].ToString();
+                            break;
+                        case 3:
+                            todayday = daysInMonthCheck[2].ToString();
+                            break;
+                        case 4:
+                            todayday = daysInMonthCheck[3].ToString();
+                            break;
+                        case 5:
+                            todayday = daysInMonthCheck[4].ToString();
+                            break;
+                        case 6:
+                            todayday = daysInMonthCheck[5].ToString();
+                            break;
+                        case 7:
+                            todayday = daysInMonthCheck[6].ToString();
+                            break;
+                        case 8:
+                            todayday = daysInMonthCheck[7].ToString();
+                            break;
+                        case 9:
+                            todayday = daysInMonthCheck[8].ToString();
+                            break;
+                        case 10:
+                            todayday = daysInMonthCheck[9].ToString();
+                            break;
+                        case 11:
+                            todayday = daysInMonthCheck[10].ToString();
+                            break;
+                        default:
+                            break;
+                    }
+                }
+
+            }
 
             switch (Convert.ToInt16(todaymonth))
             {
@@ -302,3 +429,19 @@ namespace SpFinal.ManyMenus
 
     }
 }
+
+
+
+/* COVID LIMITATION
+ * The John hopkins api is limiting in the fact that the information that we request is not avalible everywhere. 
+ * We can get the information for the specific state byt this causes issues when we want to be more precice like,
+ * when we query for a specific sub-are (Kings County) for example. This sub-area does not exist in the database,
+ * but New yor, New york (Manhattan) does.
+ * 
+ * Our Api can only give you information about new york accurately as of now due to this limitation.
+ * 
+ * 
+ * "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service/REST-API/incoming_webhook/us_only?state=" + $"{AdminArea}" + "&county=" + {County} + "&min_date=" + $"{yesterdayDate()}" + "&max_date=" + $"{todayDate()}" + "&hide_fields=_id,%20date,%20USA,%20fips,%20uid"
+ * 
+ * "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service/REST-API/incoming_webhook/us_only?state=" + $"{AdminArea}" + "&min_date=" + $"{yesterdayDate()}" + "&max_date=" + $"{todayDate()}" + "&hide_fields=_id,%20date,%20USA,%20fips,%20uid"
+ */

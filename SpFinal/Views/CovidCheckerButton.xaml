@@ -16,10 +16,8 @@
                             <Label Text="Admin Area" FontAttributes="Bold" TextColor="Green"/>
                             <Label Text="Sub Area" FontAttributes="Bold" TextColor="Green"/>
                             <Label Text="Sub Locality" FontAttributes="Bold" TextColor="Green"/>
-                            <Label Text="Confirmed" FontAttributes="Bold" TextColor="Red"/>
-                            <Label Text="Deaths" FontAttributes="Bold" TextColor="Red"/>
-                            <Label Text="Daily" FontAttributes="Bold" TextColor="Red"/>
-                            <Label Text="Covid News" FontSize="20" FontAttributes="Bold"/>
+                            <Label Text="Confirmed Daily" FontAttributes="Bold" TextColor="Red"/>
+                            <Label Text="Deaths Daily" FontAttributes="Bold" TextColor="Red"/>
                         </StackLayout>
                         <StackLayout Margin="5,35,5,0" HorizontalOptions="EndAndExpand">
                             <Label x:Name="TxtCountry" TextColor="Black"/>
@@ -28,7 +26,6 @@
                             <Label x:Name="TxtSubArea" TextColor="Black"/>
                             <Label x:Name="TxtSubLocality" TextColor="Black"/>
                             <Label x:Name="TxtConfirmed" TextColor="Black"/>
-                            <Label x:Name="TxtDeaths" TextColor="Black"/>
                             <Label x:Name="TxtDaily"  TextColor="Black"/>
                         </StackLayout>
                     </StackLayout>

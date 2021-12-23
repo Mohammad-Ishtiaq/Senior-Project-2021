@@ -17,7 +17,7 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding DName}"
-                                  Detail="{Binding DRank}"
+                                  Detail="{Binding DDescription}"
                                   TextColor="Black"
                                   DetailColor="Black"/>
                     </DataTemplate>
