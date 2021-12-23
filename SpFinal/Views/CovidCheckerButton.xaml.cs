@@ -107,22 +107,28 @@ namespace SpFinal.ManyMenus
                 // Ceate a Http clinet for get data from server side 
                 var httpClient = new HttpClient();
                 //pass the url of api its return all covid data in json formate
-                var response = await httpClient.GetStringAsync($"https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service/REST-API/incoming_webhook/us_only?state=New%20York&county=New%20York" + "&min_date=" + $"{YesterdayDate()}" + "&max_date=" + $"{TodayDate()}" + "&hide_fields=_id,%20date,%20USA,%20fips,%20uid");
+                var response = await httpClient.GetStringAsync($"https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service" +
+                    $"/REST-API/incoming_webhook/us_only?state=New%20York&county=New%20York" 
+                    + "&min_date=" + $"{YesterdayDate()}" + "&max_date=" + $"{TodayDate()}" 
+                    + "&hide_fields=_id,%20date,%20USA,%20fips,%20uid");
 
                 //Convert data json to text and parsing to our root model class
                 var responce = JsonConvert.DeserializeObject<List<Root>>(response);
                 //Used for each for filtring data by crunt location if is have record acording to the crunt location 
                 foreach (var item in responce)
                 {
-                    //Cheak if country is == to TxtAdminArea and country == to  user TxtSubArea 
-                    if (item.county == TxtAdminArea.Text || item.county == TxtSubArea.Text)
+                    //Cheak if country is == to TxtAdminArea
+                    if (item.county == TxtAdminArea.Text)
                     {
                         TxtConfirmed.Text = item.confirmed_daily.ToString();
                         TxtDaily.Text = item.deaths_daily.ToString();
                     }
                 }
+
+                IsLoadind.IsVisible = false;
+                IsLoadind.IsRunning = false;
                 //Get location function call
-                GetAllCovidNewsByLocation();
+                //GetAllCovidNewsByLocation();
             }
             catch (Exception)
             {
@@ -260,11 +266,11 @@ namespace SpFinal.ManyMenus
             string todaymonth = DateTime.Now.Month.ToString();
             string todayday = (DateTime.Now.Day-1).ToString();
             string time = "00:00:00.000";
+            int[] daysInMonthCheck = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
             //Leap Year Checker
             if ((DateTime.Now.Year % 4) != 0)
             {
-                int[] daysInMonthCheck = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
                 //Check if we need to move to the previous month because we are on the first date of the new month.
                 if ((DateTime.Now.Day - 1) == 0)
@@ -327,7 +333,7 @@ namespace SpFinal.ManyMenus
             }
             else
             {
-                int[] daysInMonthCheck = new int[] { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+                daysInMonthCheck[1] = 29;
                 //Check if we need to move to the previous month because we are on the first date of the new month.
                 if ((DateTime.Now.Day - 1) == 0)
                 {
