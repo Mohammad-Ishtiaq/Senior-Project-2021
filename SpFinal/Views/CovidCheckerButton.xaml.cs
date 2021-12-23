@@ -154,7 +154,7 @@ namespace SpFinal.ManyMenus
                     Headers =
                         {
                             { "x-rapidapi-host", "coronavirus-smartable.p.rapidapi.com" },
-                            { "x-rapidapi-key", "ed71d9c213msh299ff03e5494a28p188757jsn324bcd103f6b" },
+                            { "x-rapidapi-key", "SIGN-UP-FOR-KEY'" },
                         },
                 };
                 // Send requiest to the servr 
