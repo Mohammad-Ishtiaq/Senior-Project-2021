@@ -73,7 +73,7 @@ namespace SpFinal.ManyMenus
                         TxtSubArea.Text = country.SubAdminArea;
                         TxtSubLocality.Text = country.SubLocality;
                         //Pass parameters to this function 
-                        await GetCovidDataByLocaion(TxtAdminArea.Text, TxtSubArea.Text);
+                        await GetCovidDataByLocaion(TxtAdminArea.Text);
                         // Used console for run time testing only its prenting in output 
                         Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
                     }
@@ -98,7 +98,7 @@ namespace SpFinal.ManyMenus
         /// </summary>
         /// <param name="AdminArea"></param>
         /// <returns></returns>
-        private async Task GetCovidDataByLocaion(string AdminArea, string County)
+        private async Task GetCovidDataByLocaion(string AdminArea)
         {
             try
             {
