@@ -22,7 +22,7 @@ namespace SpFinal.ManyMenus
         /// <summary>
         /// News url use for get news according to location its like path
         /// </summary>
-        private readonly string NewsUrl = "https://coronavirus-smartable.p.rapidapi.com/news/v1/";
+        //private readonly string NewsUrl = "https://coronavirus-smartable.p.rapidapi.com/news/v1/";
         CancellationTokenSource cts;
         // Create news propertiy for binding to front end 
         public ObservableCollection<News> News { get; set; }
@@ -97,16 +97,14 @@ namespace SpFinal.ManyMenus
         /// <returns></returns>
         private async Task GetCovidDataByLocaion(string AdminArea)
         {
-            IsLoadind.IsVisible = true;
-            IsLoadind.IsRunning = true;
-            // Ceate a Http clinet for get data from server side 
-            var httpClient = new HttpClient();
-            //pass the url of api its return all covid data in json formate
             try
             {
-                var response = await httpClient.GetStringAsync("https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service/REST-API/incoming_webhook/us_only?min_date=2020-04-27T00:00:00.000Z&max_date=2020-04-27T00:00:00.000Z&hide_fields=_id,%20date,%20USA,%20NewYork,%20fips,%20uid");
-
-
+                IsLoadind.IsVisible = true;
+                IsLoadind.IsRunning = true;
+                // Ceate a Http clinet for get data from server side 
+                var httpClient = new HttpClient();
+                //pass the url of api its return all covid data in json formate
+                var response = await httpClient.GetStringAsync("https://webhooks.mongodb-stitch.com/api/client/v2.0/app/covid-19-qppza/service/REST-API/incoming_webhook/us_only?min_date=" + $"{yesterdayDate()}" + "&max_date=" + $"{todayDate()}" + "&hide_fields=_id,%20date,%20USA,%20NewYork,%20fips,%20uid");
                 //Convert data json to text and parsing to our root model class
                 var responce = JsonConvert.DeserializeObject<List<Root>>(response);
                 //Used for each for filtring data by crunt location if is have record acording to the crunt location 
@@ -122,16 +120,14 @@ namespace SpFinal.ManyMenus
                 }
                 //Get location function call
                 GetAllCovidNewsByLocation();
-
             }
             catch (Exception)
             {
                 await DisplayAlert("Warning", "There seems to be an issue loading location data. " +
-                        "Please move to a location with service, wifi, or turn off airplane mode. " +
-                        "Some information on this page will not load due to this error.", "OK");
+                       "Please move to a location with service, wifi, or turn off airplane mode. " +
+                       "Some information on this page will not load due to this error.", "OK");
                 throw;
             }
-            
         }
 
         protected override void OnDisappearing()
@@ -190,6 +186,7 @@ namespace SpFinal.ManyMenus
             IsLoadind.IsVisible = false;
             IsLoadind.IsRunning = false;
         }
+
         /// <summary>
         /// This is tap event for the news details 
         /// </summary>
@@ -212,6 +209,100 @@ namespace SpFinal.ManyMenus
 
         }
 
+
+        string todayDate()
+        {
+            string todayyear = DateTime.Now.Year.ToString();
+            string todaymonth = DateTime.Now.Month.ToString();
+            string todayday = (DateTime.Now.Day).ToString();
+            string time = "00:00:00.000";
+
+            time = $"{time[0]}{time[1]}{time[2]}{time[3]}{time[4]}{time[5]}{time[6]}{time[7]}{time[8]}{time[9]}{time[10]}{time[11]}";
+
+
+            switch (Convert.ToInt16(todaymonth))
+            {
+                case 1:
+                    todaymonth = "01";
+                    break;
+                case 2:
+                    todaymonth = "02";
+                    break;
+                case 3:
+                    todaymonth = "03";
+                    break;
+                case 4:
+                    todaymonth = "04";
+                    break;
+                case 5:
+                    todaymonth = "05";
+                    break;
+                case 6:
+                    todaymonth = "06";
+                    break;
+                case 7:
+                    todaymonth = "07";
+                    break;
+                case 8:
+                    todaymonth = "08";
+                    break;
+                case 9:
+                    todaymonth = "09";
+                    break;
+                default:
+                    break;
+            }
+
+            string todayDateForApi = $"{todayyear}-{todaymonth}-{todayday}T{time}Z";
+
+            return todayDateForApi;
+        }
+
+        string yesterdayDate()
+        {
+            string todayyear = DateTime.Now.Year.ToString();
+            string todaymonth = DateTime.Now.Month.ToString();
+            string todayday = (DateTime.Now.Day-1).ToString();
+            string time = "00:00:00.000";
+
+
+            switch (Convert.ToInt16(todaymonth))
+            {
+                case 1:
+                    todaymonth = "01";
+                    break;
+                case 2:
+                    todaymonth = "02";
+                    break;
+                case 3:
+                    todaymonth = "03";
+                    break;
+                case 4:
+                    todaymonth = "04";
+                    break;
+                case 5:
+                    todaymonth = "05";
+                    break;
+                case 6:
+                    todaymonth = "06";
+                    break;
+                case 7:
+                    todaymonth = "07";
+                    break;
+                case 8:
+                    todaymonth = "08";
+                    break;
+                case 9:
+                    todaymonth = "09";
+                    break;
+                default:
+                    break;
+            }
+
+            string todayDateForApi = $"{todayyear}-{todaymonth}-{todayday}T{time}Z";
+
+            return todayDateForApi;
+        }
 
     }
 }
